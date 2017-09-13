@@ -1,0 +1,39 @@
+{
+  "name": "springify",
+  "version": "0.0.1",
+  "description": "A lightweight animation engine inspired by react-motion.",
+  "main": "dist/springify.umd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo:compile": "rollup -c rollup.config.demo.js -w",
+    "demo:serve": "serve demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/churris/springify.git"
+  },
+  "keywords": [
+    "spring",
+    "animation",
+    "motion"
+  ],
+  "author": "René Monroy <rene.dev.js@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/churris/springify/issues"
+  },
+  "homepage": "https://github.com/churris/springify#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "rollup": "^0.48.2",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-eslint": "^4.0.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1",
+    "serve": "^6.0.6"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.1"
+  }
+}
