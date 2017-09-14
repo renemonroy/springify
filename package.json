@@ -5,6 +5,7 @@
   "main": "dist/springify.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
     "demo:compile": "rollup -c rollup.config.demo.js -w",
     "demo:serve": "serve demo"
   },
