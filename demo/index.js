@@ -11,15 +11,15 @@ rootEl.appendChild(textEl);
  * FadeIn config for text.
  */
 
-const textAnimation = new Animation({
+const textFadeIn = new Animation({
   defaultStyle: { opacity: 0 },
   style: { opacity: spring(1, { stiffness: 199, damping: 24 }) }
 });
 
-textAnimation.on('update', ({ opacity }) => {
+textFadeIn.on('update', ({ opacity }) => {
   textEl.style.opacity = opacity;
 });
 
 setTimeout(() => {
-  textAnimation.start();
+  textFadeIn.start();
 }, 3000);
